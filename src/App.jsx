@@ -10,8 +10,8 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Skills />
       <Services />
+      <Skills />
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3">VINAY BH</h6>

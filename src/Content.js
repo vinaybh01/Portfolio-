@@ -26,12 +26,15 @@ import {
   GrProjects,
   GrTwitter,
 } from "react-icons/gr";
-import { MdArrowForward, MdCall, MdPersonalInjury } from "react-icons/md";
+import {
+  MdArrowForward,
+  MdCall,
+  MdDeveloperMode,
+  MdPersonalInjury,
+} from "react-icons/md";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
-import {
-  RiProjector2Line,
-} from "react-icons/ri";
+import { RiProjector2Line } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 
 export const content = {
@@ -41,25 +44,28 @@ export const content = {
       icon: TbSmartHome,
     },
     {
-      link: "#skills",
-      icon: RiProjector2Line,
-    },
-    {
       link: "#services",
       icon: GrProjects,
     },
-
+    {
+      link: "#skills",
+      icon: MdDeveloperMode,
+    },
     {
       link: "#contact",
       icon: BiUser,
     },
   ],
   hero: {
-    title: "MERN Stack Developer",
+    title: "Full Stack Developer",
     firstName: "VINAY",
     LastName: "B H",
     btnText: "Connect Me",
+    btnText2: "Resume",
     image: Hero_person,
+    link1: "https://www.linkedin.com/in/vinay-b-h-06a09825b",
+    link2:
+      "https://drive.google.com/file/d/1Z3i7wiQadBL36mYI4jKDL7hUycSwPVUb/view?usp=sharing",
     hero_content: [
       {
         count: "8+",
@@ -67,72 +73,49 @@ export const content = {
       },
       {
         count: "20+",
-        text: "I am a passionate MERN STACK DEVELOPER, I recently completed my BCA degree in Computer Applications. I'm focused on building a fullstack web applications while learning & exploring other technologies.",
+        text: "I am a passionate Full Stack Developer, I recently completed my BCA degree in Computer Applications. I'm focused on building a fullstack web applications while learning & exploring other technologies.",
       },
     ],
   },
   skills: {
-    title: "Skills",
+    title: "My Skills",
     subtitle: "Technologies I use in my development",
     skills_content: [
       {
         name: "React js",
         logo: reactjs,
-        url: "https://react.dev/",
       },
       {
         name: "Node js",
-        // para: "Lorem ipsum text  dummy",
         logo: nodejs,
-        url: "https://nodejs.org/en",
       },
       {
         name: "Express js",
-        // para: "Lorem ipsum text  dummy",
         logo: ex,
-        url: "https://expressjs.com/",
       },
       {
         name: "MongoDB",
-        // para: "Lorem ipsum text  dummy",
         logo: mongo,
-        url: "https://www.mongodb.com/",
       },
       {
         name: "JavaScript",
-        // para: "Lorem ipsum text  dummy",
         logo: js,
-        url: "https://www.w3schools.com/js/",
       },
       {
         name: "HTML",
-        // para: "Lorem ipsum text  dummy",
         logo: html,
-        url: "https://www.w3schools.com/html/",
       },
       {
         name: "CSS",
-        // para: "Lorem ipsum text  dummy",
         logo: css,
-        url: "https://www.w3schools.com/css/",
       },
       {
         name: "BootStrap",
-        // para: "Lorem ipsum text  dummy",
         logo: boot,
-        url: "https://getbootstrap.com/",
       },
       {
         name: "Tailwind",
-        // para: "Lorem ipsum text  dummy",
         logo: tail,
-        url: "https://tailwindcss.com/",
-      },
-      {
-        name: "Java",
-        // para: "Lorem ipsum text  dummy",
-        logo: java,
-        url: "https://www.java.com/en/",
       },
     ],
     icon: MdArrowForward,
