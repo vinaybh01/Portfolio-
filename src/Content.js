@@ -65,7 +65,7 @@ export const content = {
     image: Hero_person,
     link1: "https://www.linkedin.com/in/vinay-b-h-06a09825b",
     link2:
-      "https://drive.google.com/file/d/1Z3i7wiQadBL36mYI4jKDL7hUycSwPVUb/view?usp=sharing",
+      "https://drive.google.com/file/d/1180jAYJziUW2HSkExdp6bEv1E56AVJKb/view?usp=sharing",
     hero_content: [
       {
         count: "8+",
@@ -126,42 +126,48 @@ export const content = {
     service_content: [
       {
         title: "Recipe Website",
-        para: "A recipe website where people can share and discover recipes. It creates a lively community of food lovers, with an easy-to-use design, a variety of recipes, and a sense of connection through cooking. TECH STACK - REACT, EXPRESSJS, NODEJS, MONGODB.",
+        para: "A recipe website where people can share and discover recipes. It creates a lively community of food lovers, with an easy-to-use design, a variety of recipes, and a sense of connection through cooking.",
+        para2: "TECH STACK - REACT, EXPRESSJS, NODEJS, MONGODB.",
         logo: pic1,
         demo: "https://recipe-app-h06o.onrender.com",
         code: "https://github.com/vinaybh01/recipe-web-frontend",
       },
       {
         title: "Course Selling & Buying Website",
-        para: "A course platform where admins effortlessly manage courses - creating, editing, and deleting. Users sign up to explore and purchase courses, fostering a streamlined learning experience. TECH STACK- REACT, EXPRESSJS, NODEJS, MONGODB.",
+        para: "A course platform where admins effortlessly manage courses - creating, editing, and deleting. Users sign up to explore and purchase courses, fostering a streamlined learning experience.",
+        para2: "TECH STACK - REACT, EXPRESSJS, NODEJS, MONGODB.",
         logo: pic2,
         demo: "https://course-app-mern.onrender.com",
         code: "https://github.com/vinaybh01/course-selling-app-client",
       },
       {
         title: "Job Portal",
-        para: "Simplifying job searches, this platform allows users to effortlessly filter and apply for jobs. Admins, on the other hand, can efficiently create, edit, and delete job listings for their company. TECH STACK - REACT, EXPRESSJS, NODEJS, MONGODB, TAILWIND.",
+        para: "Simplifying job searches, this platform allows users to effortlessly filter and apply for jobs. Admins, on the other hand, can efficiently create, edit, and delete job listings for their company.",
+        para2: "TECH STACK - REACT, EXPRESSJS, NODEJS, MONGODB, TAILWIND.",
         logo: pic3,
         demo: "https://job-portal-app-3puy.onrender.com",
         code: "https://github.com/vinaybh01/job-portal-frontend",
       },
       {
         title: "Disaster Relief",
-        para: "Enabling seamless connection and support in times of disaster through a comprehensive web application, uniting relief organizations, volunteers, and victims. TECH STACK - HTML, CSS, JAVASCRIPT, BOOTSTRAP.",
+        para: "Enabling seamless connection and support in times of disaster through a comprehensive web application, uniting relief organizations, volunteers, and victims.",
+        para2: "TECH STACK - HTML, CSS, JAVASCRIPT, BOOTSTRAP.",
         logo: pic4,
         demo: "https://ybhumi.github.io/disaster-relief",
         code: "https://github.com/vinaybh01/disaster-relief",
       },
       {
         title: "E-Commerce Website",
-        para: " An eCommerce website I built, providing a user-friendly and visually appealing platform for online shopping. TECH STACK - REACTJS.",
+        para: " An eCommerce website I built, providing a user-friendly and visually appealing platform for online shopping.",
+        para2: "TECH STACK - REACTJS.",
         logo: pic5,
         demo: "https://vinaybh0107-ecommerce.netlify.app",
         code: "https://github.com/vinaybh01/ecommerce-website",
       },
       {
         title: "Travel Website",
-        para: "A travel website that allows users to explore various destinations, providing a visually appealing platform to discover and learn about different places, inspiring their wanderlust.TECH STACK - REACT, EXPRESSJS, NODEJS, MONGODB.",
+        para: "A travel website that allows users to explore various destinations, providing a visually appealing platform to discover and learn about different places, inspiring their wanderlust.",
+        para2: "TECH STACK - REACT, EXPRESSJS, NODEJS, MONGODB.",
         logo: pic6,
         demo: "https://vinaybh0107-travel-website.netlify.app",
         code: "https://github.com/vinaybh01/travelling-website",

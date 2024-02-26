@@ -46,10 +46,8 @@ const Skills = () => {
 
       {/* content */}
       <div className="md:container px-5  py-14">
-        <h2 className="title">
-          {skills.title}
-        </h2>
-        <h4 className="subtitle" >
+        <h2 className="title">{skills.title}</h2>
+        <h4 className="subtitle text-[22px] sm:text-[28px]">
           {skills.subtitle}
         </h4>
         <br />
@@ -57,16 +55,16 @@ const Skills = () => {
           {skills.skills_content.map((skill, i) => (
             <div
               key={i}
-              className="sm:cursor-pointer relative group w-[150px] flex items-center
+              className="sm:cursor-pointer relative group w-[110px] sm:w-[145px] flex items-center
                 gap-5 p-5"
             >
               {" "}
               <div className="">
                 <div className="flex items-center justify-center">
-                  <img src={skill.logo} alt="..." className="w-10 m-2" />
+                  <img src={skill.logo} alt="..." className="w-8 sm:w-10 m-2" />
                 </div>
                 <div>
-                  <h6>{skill.name}</h6>
+                  <h6 className="text-[12px] sm:text-[16px]">{skill.name}</h6>
                 </div>
               </div>
             </div>

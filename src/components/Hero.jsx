@@ -20,10 +20,14 @@ const Hero = () => {
           <br />
           <div className="flex justify-end  mr-2">
             <a href={hero.link1}>
-              <button className="btn text-[15px]">{hero.btnText}</button>
+              <button className="btn text-[12px] sm:text-[16px]">
+                {hero.btnText}
+              </button>
             </a>
             <a href={hero.link2} className="ml-2">
-              <button className="btn text-[15px]">{hero.btnText2}</button>
+              <button className="btn text-[12px] sm:text-[16px]">
+                {hero.btnText2}
+              </button>
             </a>
           </div>
           <div className="flex flex-col gap-10 mt-10">

@@ -10,7 +10,10 @@ const Services = () => {
         <h2 className="title" data-aos="fade-down">
           {services.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h4
+          className="subtitle text-[22px] sm:text-[28px]"
+          data-aos="fade-down"
+        >
           {services.subtitle}
         </h4>
         <br />
@@ -22,8 +25,9 @@ const Services = () => {
               hover:!blur-none "
             >
               <img src={content.logo} alt="..." className="mx-auto " />
-              <h6 className="my-3">{content.title}</h6> 
+              <h6 className="my-3">{content.title}</h6>
               <p className="leading-7">{content.para}</p>
+              <p>{content.para2}</p>
               <div className="links flex space-x-4 font-semibold pt-5 justify-center gap-2">
                 <a href={content.demo}>
                   <button className="border px-1.5 py-0.5 rounded-md bg-slate-600 hover:bg-slate-800 text-white">

@@ -12,7 +12,10 @@ const Contact = () => {
         <h2 className="title !text-white" data-aos="fade-down">
           {Contact.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h4
+          className="subtitle text-[22px] sm:text-[28px]"
+          data-aos="fade-down"
+        >
           {Contact.subtitle}
         </h4>
         <br />
