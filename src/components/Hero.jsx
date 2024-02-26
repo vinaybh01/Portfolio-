@@ -14,14 +14,16 @@ const Hero = () => {
 
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
-          <h2>{hero.title}</h2>
+          <h2 className="text-[26px] md:text-[34px] lg:text-[48px]">
+            {hero.title}
+          </h2>
           <br />
           <div className="flex justify-end  mr-2">
             <a href={hero.link1}>
-              <button className="btn">{hero.btnText}</button>
+              <button className="btn text-[15px]">{hero.btnText}</button>
             </a>
             <a href={hero.link2} className="ml-2">
-              <button className="btn">{hero.btnText2}</button>
+              <button className="btn text-[15px]">{hero.btnText2}</button>
             </a>
           </div>
           <div className="flex flex-col gap-10 mt-10">
