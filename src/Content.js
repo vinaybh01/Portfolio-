@@ -34,8 +34,6 @@ import {
 } from "react-icons/md";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
-import { RiProjector2Line } from "react-icons/ri";
-import { MdOutlinePermContactCalendar } from "react-icons/md";
 
 export const content = {
   nav: [
@@ -65,7 +63,7 @@ export const content = {
     image: Hero_person,
     link1: "https://www.linkedin.com/in/vinay-b-h-06a09825b",
     link2:
-      "https://drive.google.com/file/d/1180jAYJziUW2HSkExdp6bEv1E56AVJKb/view?usp=sharing",
+      "https://drive.google.com/file/d/1Z3i7wiQadBL36mYI4jKDL7hUycSwPVUb/view?usp=sharing",
     hero_content: [
       {
         count: "8+",
