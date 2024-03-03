@@ -37,12 +37,12 @@ const Skills = () => {
   return (
     <section className="min-h-fit bg-bg_light_primary" id="skills">
       {/* modal */}
-      <Modal style={customStyles}>
-        <div className="flex items-center gap-2">
+      {/* <Modal style={customStyles}>
+        <div className="flex items-center  gap-2">
           <img className="h-10" src={selectSkill?.logo} alt="..." />
           <h6>{selectSkill?.name}</h6>
         </div>
-      </Modal>
+      </Modal> */}
 
       {/* content */}
       <div className="md:container px-5  py-14">
@@ -55,8 +55,7 @@ const Skills = () => {
           {skills.skills_content.map((skill, i) => (
             <div
               key={i}
-              className="sm:cursor-pointer relative group w-[110px] sm:w-[145px] flex items-center
-                gap-5 p-5"
+              className="sm:cursor-pointer relative group w-[110px] sm:w-[145px] flex items-center gap-5 p-5 "
             >
               {" "}
               <div className="">

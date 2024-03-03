@@ -4,7 +4,6 @@ import Hero_person from "./assets/images/Hero/person2.png";
 import tail from "./assets/images/Skills/tailwind-css.png";
 import mongo from "./assets/images/Skills/mongodb.png";
 import html from "./assets/images/Skills/html5.png";
-import java from "./assets/images/Skills/java.png";
 import js from "./assets/images/Skills/javascript.png";
 import ex from "./assets/images/Skills/express.png";
 import css from "./assets/images/Skills/css3.png";
@@ -17,7 +16,8 @@ import pic2 from "./assets/images/Services/course.png";
 import pic3 from "./assets/images/Services/jobportal.png";
 import pic4 from "./assets/images/Services/dis.png";
 import pic5 from "./assets/images/Services/ecommerce.png";
-import pic6 from "./assets/images/Services/travel.png";
+// import pic6 from "./assets/images/Services/travel.png";
+import pic7 from "./assets/images/Services/real.png";
 
 import {
   GrGithub,
@@ -125,9 +125,17 @@ export const content = {
     subtitle: "Take a look at my projects:",
     service_content: [
       {
+        title: "Real Estate",
+        para: "A Real Estate project where users can buy a home or rent a home, Users can also sell the home. Users can create, update, and delete their listings. Users can share the link of the home with others and Users can easily connect with the landlord.",
+        para2: "React, ExpressJS, NodeJs, MongoDb, TailwindCss.",
+        logo: pic7,
+        demo: "https://mern-estate-cq90.onrender.com",
+        code: "https://github.com/vinaybh01/mern-estate",
+      },
+      {
         title: "Recipe Website",
         para: "A recipe website where people can share and discover recipes. It creates a lively community of food lovers, with an easy-to-use design, a variety of recipes, and a sense of connection through cooking.",
-        para2: "TECH STACK - REACT, EXPRESSJS, NODEJS, MONGODB.",
+        para2: "React, ExpressJS, NodeJs, MongoDb.",
         logo: pic1,
         demo: "https://recipe-app-h06o.onrender.com",
         code: "https://github.com/vinaybh01/recipe-web-frontend",
@@ -135,7 +143,7 @@ export const content = {
       {
         title: "Course Selling & Buying Website",
         para: "A course platform where admins effortlessly manage courses - creating, editing, and deleting. Users sign up to explore and purchase courses, fostering a streamlined learning experience.",
-        para2: "TECH STACK - REACT, EXPRESSJS, NODEJS, MONGODB.",
+        para2: "React, ExpressJS, NodeJs, MongoDb.",
         logo: pic2,
         demo: "https://course-app-mern.onrender.com",
         code: "https://github.com/vinaybh01/course-selling-app-client",
@@ -143,7 +151,7 @@ export const content = {
       {
         title: "Job Portal",
         para: "Simplifying job searches, this platform allows users to effortlessly filter and apply for jobs. Admins, on the other hand, can efficiently create, edit, and delete job listings for their company.",
-        para2: "TECH STACK - REACT, EXPRESSJS, NODEJS, MONGODB, TAILWIND.",
+        para2: "React, ExpressJS, NodeJs, MongoDb, TailwindCss.",
         logo: pic3,
         demo: "https://job-portal-app-3puy.onrender.com",
         code: "https://github.com/vinaybh01/job-portal-frontend",
@@ -151,7 +159,7 @@ export const content = {
       {
         title: "Disaster Relief",
         para: "Enabling seamless connection and support in times of disaster through a comprehensive web application, uniting relief organizations, volunteers, and victims.",
-        para2: "TECH STACK - HTML, CSS, JAVASCRIPT, BOOTSTRAP.",
+        para2: "Html, Css, Bootstrap.",
         logo: pic4,
         demo: "https://ybhumi.github.io/disaster-relief",
         code: "https://github.com/vinaybh01/disaster-relief",
@@ -159,18 +167,10 @@ export const content = {
       {
         title: "E-Commerce Website",
         para: " An eCommerce website I built, providing a user-friendly and visually appealing platform for online shopping.",
-        para2: "TECH STACK - REACTJS.",
+        para2: "ReactJs, JavaScript.",
         logo: pic5,
         demo: "https://vinaybh0107-ecommerce.netlify.app",
         code: "https://github.com/vinaybh01/ecommerce-website",
-      },
-      {
-        title: "Travel Website",
-        para: "A travel website that allows users to explore various destinations, providing a visually appealing platform to discover and learn about different places, inspiring their wanderlust.",
-        para2: "TECH STACK - REACT, EXPRESSJS, NODEJS, MONGODB.",
-        logo: pic6,
-        demo: "https://vinaybh0107-travel-website.netlify.app",
-        code: "https://github.com/vinaybh01/travelling-website",
       },
     ],
   },
