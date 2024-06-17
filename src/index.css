@@ -3,6 +3,7 @@
 /* Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -64,4 +65,24 @@
 }
 .swiper-pagination-bullet {
   @apply w-3 h-3 bg-dark_primary;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #444;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #444;
+  border-radius: 10px;
 }

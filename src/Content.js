@@ -154,14 +154,14 @@ export const content = {
         demo: "https://job-portal-app-3puy.onrender.com",
         code: "https://github.com/vinaybh01/job-portal-frontend",
       },
-      {
-        title: "Disaster Relief",
-        para: "Enabling seamless connection and support in times of disaster through a comprehensive web application, uniting relief organizations, volunteers, and victims.",
-        para2: "Html, Css, Bootstrap.",
-        logo: pic4,
-        demo: "https://ybhumi.github.io/disaster-relief",
-        code: "https://github.com/vinaybh01/disaster-relief",
-      },
+      // {
+      //   title: "Disaster Relief",
+      //   para: "Enabling seamless connection and support in times of disaster through a comprehensive web application, uniting relief organizations, volunteers, and victims.",
+      //   para2: "Html, Css, Bootstrap.",
+      //   logo: pic4,
+      //   demo: "https://ybhumi.github.io/disaster-relief",
+      //   code: "https://github.com/vinaybh01/disaster-relief",
+      // },
       {
         title: "E-Commerce Website",
         para: " An eCommerce website I built, providing a user-friendly and visually appealing platform for online shopping.",
