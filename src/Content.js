@@ -16,6 +16,9 @@ import pic2 from "./assets/images/Services/course.png";
 import pic3 from "./assets/images/Services/jobportal.png";
 import pic4 from "./assets/images/Services/dis.png";
 import pic5 from "./assets/images/Services/ecommerce.png";
+import SaiconWebsite from "./assets/images/Services/saicon.png";
+import MovieWebsite from "./assets/images/Services/movies.png";
+import VllsWebsite from "./assets/images/Services/vlls.png";
 // import pic6 from "./assets/images/Services/travel.png";
 import pic7 from "./assets/images/Services/real.png";
 
@@ -119,9 +122,33 @@ export const content = {
     icon: MdArrowForward,
   },
   services: {
-    title: "Projects",
-    subtitle: "Take a look at my projects:",
+    title: "Works & Porjects",
+    subtitle: "Projects I have worked before:",
     service_content: [
+      {
+        title: "SAICON Website",
+        para: "Saicon is a dynamic marketing website that supplies raw materials, equipment, and services. It includes email automation with Mailgun. The complete frontend and backend were developed by me in association with the company Kridaverse",
+        para2: "React, ExpressJS, NodeJs, MongoDb, Typescript, Mui.",
+        logo: SaiconWebsite,
+        demo: "https://saicon.vercel.app",
+        code: "https://saicon.vercel.app/",
+      },
+      {
+        title: "Movies Website",
+        para: "A movie website where it gives cinematic dreams through expert film production and visual effects expertise. It includes email automation with Mailgun. I developed the complete frontend and backend in association with the company Kridaverse.",
+        para2: "React, ExpressJS, NodeJs, MongoDb, Typescript, Mui.",
+        logo: MovieWebsite,
+        demo: "https://moviesite-plum.vercel.app",
+        code: "https://moviesite-plum.vercel.app",
+      },
+      {
+        title: "Lingayatha Website",
+        para: "A Lingayatha is a dynamic website for the community, showcasing works done under the religion and helping users join their religious community. I developed both the frontend and backend in association with the company Kridaverse.",
+        para2: "React, ExpressJS, NodeJs, MongoDb, Typescript, Mui.",
+        logo: VllsWebsite,
+        demo: "https://vlss-taupe.vercel.app",
+        code: "https://vlss-taupe.vercel.app",
+      },
       {
         title: "Real Estate",
         para: "A Real Estate project where users can buy a home or rent a home, Users can also sell the home. Users can create, update, and delete their listings. Users can share the link of the home with others and Users can easily connect with the landlord.",
@@ -154,22 +181,22 @@ export const content = {
         demo: "https://job-portal-app-3puy.onrender.com",
         code: "https://github.com/vinaybh01/job-portal-frontend",
       },
-      // {
-      //   title: "Disaster Relief",
-      //   para: "Enabling seamless connection and support in times of disaster through a comprehensive web application, uniting relief organizations, volunteers, and victims.",
-      //   para2: "Html, Css, Bootstrap.",
-      //   logo: pic4,
-      //   demo: "https://ybhumi.github.io/disaster-relief",
-      //   code: "https://github.com/vinaybh01/disaster-relief",
-      // },
       {
-        title: "E-Commerce Website",
-        para: " An eCommerce website I built, providing a user-friendly and visually appealing platform for online shopping.",
-        para2: "ReactJs, JavaScript.",
-        logo: pic5,
-        demo: "https://vinaybh0107-ecommerce.netlify.app",
-        code: "https://github.com/vinaybh01/ecommerce-website",
+        title: "Disaster Relief",
+        para: "Enabling seamless connection and support in times of disaster through a comprehensive web application, uniting relief organizations, volunteers, and victims.",
+        para2: "Html, Css, Bootstrap.",
+        logo: pic4,
+        demo: "https://ybhumi.github.io/disaster-relief",
+        code: "https://github.com/vinaybh01/disaster-relief",
       },
+      // {
+      //   title: "E-Commerce Website",
+      //   para: " An eCommerce website I built, providing a user-friendly and visually appealing platform for online shopping.",
+      //   para2: "ReactJs, JavaScript.",
+      //   logo: pic5,
+      //   demo: "https://vinaybh0107-ecommerce.netlify.app",
+      //   code: "https://github.com/vinaybh01/ecommerce-website",
+      // },
     ],
   },
   Contact: {
