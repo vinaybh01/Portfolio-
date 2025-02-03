@@ -66,7 +66,7 @@ export const content = {
     image: Hero_person,
     link1: "https://www.linkedin.com/in/vinay-b-h-06a09825b",
     link2:
-      "https://drive.google.com/file/d/1Rkgmez1JN__UF2ZVOTeWLB28lzp5sctU/view?usp=sharing",
+      "https://drive.google.com/file/d/1T-Eo9ndBVlXuPj8j6Qw-yqh3VDeaL_Nm/view?usp=sharing",
     hero_content: [
       {
         count: "8+",
